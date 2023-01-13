@@ -1,0 +1,28 @@
+%section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+%container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+%list {
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+%header-border {
+  border-bottom: 1px solid #ececec;
+}
+
+%link {
+  text-decoration: none;
+}

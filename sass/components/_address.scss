@@ -1,0 +1,30 @@
+.address {
+  font-style: normal;
+}
+
+.address__list {
+  @extend %list;
+}
+
+.address__link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @extend %link;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address__item {
+  margin-bottom: 9px;
+}
+
+.address--white {
+  color: var(--text-color);
+}

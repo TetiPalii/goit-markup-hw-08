@@ -1,0 +1,29 @@
+@import './utils/variables';
+@import './utils/fonts';
+@import './utils/placeholders';
+
+@import './base/base';
+@import './base/reset';
+
+@import './components/address';
+@import './components/agreement';
+@import './components/backdrop';
+@import './components/contacts';
+@import './components/close-button';
+@import './components/hero-section';
+@import './components/icons-list';
+@import './components/join';
+@import './components/logo';
+@import './components/modal';
+@import 'components/newsletter';
+@import './components/portfolio-section';
+@import 'components/section-benefits';
+@import 'components/section-clients';
+@import 'components/secondary-heading';
+@import 'components/section-spec';
+@import 'components/section-team';
+@import 'components/send-button';
+
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/navigation';
