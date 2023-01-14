@@ -1,8 +1,8 @@
 .agreement {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // position: relative;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   font-size: 14px;
   font-weight: 400;
   color: var(--secondary-color);
@@ -13,7 +13,7 @@
 
 .agreement__link {
   color: var(--accent-color);
-  margin-left: 5px;
+  // margin-left: 5px;
   @extend %link;
 }
 

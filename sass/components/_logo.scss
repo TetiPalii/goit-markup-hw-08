@@ -1,15 +1,27 @@
 .logo {
   font-family: Raleway;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  @extend %link;
+
+  @media screen and(min-width: 1200px) {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  }
   @extend %link;
 }
 
 .logo-header {
-  margin-right: 93px;
   color: #000000;
+  
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
 }
 
 .logo-footer {

@@ -1,24 +1,27 @@
 .section-spec {
   @extend %section;
-  @extend %container;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 .section-spec__list {
-  display: flex;
+  // display: flex;
   @extend %list;
+  @extend %container;
 }
 
 .section-padding {
   padding-top: 0;
 }
 
-.section-spec__item {
-  position: relative;
-  flex-basis: calc((100% - 60px) / 3);
+// .section-spec__item {
+//   position: relative;
+//   flex-basis: calc((100% - 60px) / 3);
 
-  &:not(:last-child) {
-    margin-right: 30px;
-  }
-}
+//   &:not(:last-child) {
+//     margin-right: 30px;
+//   }
+// }
 
 .section-spec__text {
   position: absolute;

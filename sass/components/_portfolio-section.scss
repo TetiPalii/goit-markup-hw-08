@@ -1,18 +1,17 @@
 .portfolio-section {
   @extend %section;
-  @extend %container;
-  flex-direction: column;
+
+  // flex-direction: column;
 }
 
 .portfolio-buttons {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  @extend %container;
+  // margin-bottom: 50px;
   @extend %list;
 }
 
 .portfolio-buttons__item {
-  align-items: center;
+  // align-items: center;
 
   &:not(:last-child) {
     margin-right: 8px;
@@ -47,15 +46,15 @@
 }
 
 .portfolio-list {
-  list-style: none;
+  @extend %container;
   @extend %list;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+
+  // flex-wrap: wrap;
+  // gap: 30px;
 }
 
 .portfolio-list__item {
-  flex-basis: calc((100% - 60px) / 3);
+  // flex-basis: calc((100% - 60px) / 3);
 
   &:nth-child(3n) {
     margin-right: 0;
