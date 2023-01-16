@@ -21,9 +21,12 @@
   }
 }
 
-// .address__item {
-//   margin-bottom: 9px;
-// }
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address__item:last-child {
+  margin-bottom: 60px;
+}
 
 .address--white {
   color: var(--text-color);

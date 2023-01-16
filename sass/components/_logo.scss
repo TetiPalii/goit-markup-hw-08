@@ -18,15 +18,15 @@
 
 .logo-header {
   color: #000000;
-  
+
   @media screen and (min-width: 1200px) {
     margin-right: 93px;
   }
 }
 
 .logo-footer {
-  display: inline-block;
-  padding-bottom: 20px;
+  display: block;
+  margin-bottom: 28px;
   color: var(--text-color);
 }
 

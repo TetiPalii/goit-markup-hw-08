@@ -1,11 +1,13 @@
 .footer {
   background-color: var(--secondary-background-color);
-  // padding-top: 60px;
-  // padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer__container {
-  // display: flex;
-  // align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   @extend %container;
+  // padding-top: 60px;
 }
