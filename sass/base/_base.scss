@@ -2,9 +2,14 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--primary-color);
   background-color: var(--main-background-color);
-  &.modal-open {
+
+  & .modal-open {
     overflow: hidden;
   }
+}
+
+.modal-open {
+  overflow: hidden;
 }
 
 img {
