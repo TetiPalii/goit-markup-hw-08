@@ -15,15 +15,16 @@
 @import './components/logo';
 @import './components/modal';
 @import './components/menu-container';
-@import 'components/newsletter';
+@import './components/newsletter';
 @import './components/portfolio-section';
-@import 'components/section-benefits';
-@import 'components/section-clients';
-@import 'components/secondary-heading';
-@import 'components/section-spec';
-@import 'components/section-team';
-@import 'components/send-button';
+@import './components/section-benefits';
+@import './components/section-clients';
+@import './components/secondary-heading';
+@import './components/section-spec';
+@import './components/section-team';
+@import './components/send-button';
 
-@import 'layout/header';
-@import 'layout/footer';
-@import 'layout/navigation';
+@import './layout/header';
+@import './layout/footer';
+@import './layout/navigation';
+@import '././layout/container';

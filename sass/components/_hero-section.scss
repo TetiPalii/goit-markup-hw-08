@@ -6,7 +6,7 @@
   padding: 118px 60px;
 
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/header-mobile@1x.jpg);
+    url(../images/header-mobile@1x.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -37,12 +37,12 @@
 @media screen and(min-width:1200px) {
   .hero-section {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(/images/header-descktop@1x.jpg);
+      url(../images/header-descktop@1x.jpg);
   }
   @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero-section {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(/images/header-descktop@2x.jpg);
+        url(../images/header-descktop@2x.jpg);
     }
   }
 }
