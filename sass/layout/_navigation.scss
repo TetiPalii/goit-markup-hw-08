@@ -7,9 +7,9 @@
 .nav__item {
   display: inline-block;
 
-  // &:not(:last-child) {
-  //   margin-right: 50px;
-  // }
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .nav__link {

@@ -5,6 +5,11 @@
   @extend %header-border;
   width: 100%;
 
+  @media screen and (min-width: 768px) {
+    position: relative;
+    height: 80px;
+  }
+
   &__container {
     @extend %container;
     display: flex;
