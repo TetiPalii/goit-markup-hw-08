@@ -52,3 +52,9 @@
     background-color: var(--accent-color);
   }
 }
+.footer-icons {
+  padding: 0;
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 60px;
+  }
+}

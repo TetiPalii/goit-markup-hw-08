@@ -400,6 +400,15 @@ p {
   background-color: var(--accent-color);
 }
 
+.footer-icons {
+  padding: 0;
+}
+@media screen and (max-width: 1199px) {
+  .footer-icons {
+    margin-bottom: 60px;
+  }
+}
+
 .logo {
   font-family: Raleway;
   font-size: 24px;
@@ -1008,7 +1017,7 @@ backdrop--hidden .modal {
 }
 
 @media screen and (max-width: 767px) {
-  .section-benefits__item {
+  .section-benefits__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
@@ -1304,10 +1313,12 @@ backdrop--hidden .modal {
   padding-bottom: 60px;
 }
 
-.footer__container {
-  text-align: center;
+@media screen and (max-width: 1199px) {
+  .footer__container {
+    text-align: center;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1350,10 +1361,11 @@ backdrop--hidden .modal {
   margin-bottom: 9px;
 }
 
-.address__item:last-child {
-  margin-bottom: 60px;
+@media screen and (max-width: 1199px) {
+  .address__item:last-child {
+    margin-bottom: 60px;
+  }
 }
-
 .address--white {
   color: var(--text-color);
 }
@@ -1368,14 +1380,13 @@ backdrop--hidden .modal {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-right: 165px;
-    margin-left: 76px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .join {
     margin-right: 94px;
-    margin-left: 94px;
+    margin-left: 93px;
   }
 }
 
