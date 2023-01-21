@@ -315,7 +315,7 @@ p {
 .hero-section__button {
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 32px;
+  padding: 10px 24px;
   color: var(--text-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -668,8 +668,8 @@ backdrop--hidden .modal {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 100vh;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
   padding: 48px 40px;
   z-index: 999;
@@ -700,7 +700,7 @@ backdrop--hidden .modal {
 .menu-container .menu-button {
   position: absolute;
   top: 10px;
-  left: 420px;
+  right: 15px;
 }
 .menu-button:hover, .menu-button:focus {
   fill: #2196f3;
@@ -809,7 +809,6 @@ backdrop--hidden .modal {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
 @media screen and (max-width: 1199px) {
   .newsletter__form {
     -webkit-box-orient: vertical;
@@ -818,6 +817,7 @@ backdrop--hidden .modal {
             flex-direction: column;
   }
 }
+
 .newsletter__text {
   margin-bottom: 20px;
   font-size: 14px;
@@ -835,21 +835,30 @@ backdrop--hidden .modal {
 
 .newsletter__input {
   padding-left: 16px;
-  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--secondary-background-color);
   border-radius: 4px;
+}
+@media screen and (max-width: 767px) {
+  .newsletter__input {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 1199px) {
   .newsletter__input {
     margin-bottom: 20px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .newsletter__input {
+    width: 450px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .newsletter__input {
-    margin-right: 12px;
     width: 358px;
+    margin-right: 12px;
   }
 }
 
