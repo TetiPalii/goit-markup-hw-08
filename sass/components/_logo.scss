@@ -6,10 +6,6 @@
   letter-spacing: 0.03em;
   @extend %link;
 
-  @media screen and (min-width: 768px) {
-    margin-right: 88px;
-  }
-
   @media screen and(min-width: 1200px) {
     font-family: Raleway;
     font-size: 26px;
@@ -22,6 +18,9 @@
 
 .logo-header {
   color: #000000;
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+  }
 
   @media screen and (min-width: 1200px) {
     margin-right: 93px;
@@ -32,6 +31,10 @@
   display: block;
   margin-bottom: 28px;
   color: var(--text-color);
+  @media screen and (min-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .accent {

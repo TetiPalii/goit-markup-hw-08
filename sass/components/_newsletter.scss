@@ -1,7 +1,20 @@
+.newsletter {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .newsletter__form {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  // width: 450px;
+}
+@media screen and (max-width: 1199px) {
+  .newsletter__form {
+    flex-direction: column;
+  }
 }
 
 .newsletter__text {
@@ -12,17 +25,27 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 }
 
 .newsletter__input {
-  // margin-right: 12px;
-  margin-bottom: 20px;
   padding-left: 16px;
-  width: 100%;
+  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--secondary-background-color);
   border-radius: 4px;
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 12px;
+    width: 358px;
+  }
 }
 
 .newsletter__button {

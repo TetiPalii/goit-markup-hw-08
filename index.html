@@ -156,8 +156,8 @@
       </section>
 
       <section class="section-spec section-padding">
+        <h2 class="secondary-heading">Чим ми займаємося</h2>
         <div class="container">
-          <h2 class="secondary-heading">Чим ми займаємося</h2>
           <ul class="list section-spec__list">
             <li class="section-spec__item">
               <img src="./images/coding.jpg" alt="стаціонарний комп'ютер" width="370" />
@@ -176,8 +176,8 @@
       </section>
 
       <section class="section-team">
+        <h2 class="secondary-heading">Наша команда</h2>
         <div class="container">
-          <h2 class="secondary-heading">Наша команда</h2>
           <ul class="section-team__list">
             <li class="section-team__item">
               <img
@@ -217,13 +217,11 @@
               </ul>
             </li>
             <li class="section-team__item">
-              <img
-                srcset="./images/repina-mobile@1x.jpg 1x, ./images/repina-mobile@2x.jpg 2x"
-                src="./images/repina-mobile@1x.jpg"
-                alt="Член команди"
-                width="450"
-                class="section-team__img"
-              />
+              <img srcset="./images/repina-mobile@1x.jpg w450, ./images/repina-mobile@2x.jpg w900,
+              ./images/repina-tablet@1x.jpg w354, ./images/repina-tablet@2x.jpg w708,
+              ./images/repina-desktop@1x.jpg w270, ./images/repina-desktop@2x w540.jpg"
+              src="./images/repina-mobile@1x.jpg " alt="Член команди" sizes:"(min-width:480px)
+              100vw, (min-width: 768px) 50vw, (min-width: 1200px) 25vw" class="section-team__img" />
               <h3 class="section-team__member">Ольга Рєпіна</h3>
               <p class="section-team__text">Frontend Developer</p>
               <ul class="icons-list">
@@ -331,8 +329,8 @@
         </div>
       </section>
       <section class="section-clients">
+        <h2 class="secondary-heading">Постійні клієнти</h2>
         <div class="container">
-          <h2 class="secondary-heading">Постійні клієнти</h2>
           <ul class="section-clients__list">
             <li class="section-clients__item">
               <a href="" class="section-clients__link"
@@ -376,24 +374,28 @@
     </main>
     <footer class="footer">
       <div class="footer__container">
-        <a href="" class="logo logo-footer"><span class="accent">Web</span>Studio</a>
-        <address class="address">
-          <ul class="address__list">
-            <li class="address__item">
-              <a
-                href="https://www.google.pl/maps/place/Lesi+Ukrainky+Blvd,+26/@50.4265841,30.5361971,17z/data=!4m7!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!4b1!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv"
-                class="address__link address--white link"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="address__item">
-              <a href="mailto:info@devstudio.com" class="address__link link">info@devstudio.com</a>
-            </li>
-            <li class="address__item">
-              <a href="tel:+380961111111" class="address__link link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+        <div class="address-container">
+          <a href="" class="logo logo-footer"><span class="accent">Web</span>Studio</a>
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a
+                  href="https://www.google.pl/maps/place/Lesi+Ukrainky+Blvd,+26/@50.4265841,30.5361971,17z/data=!4m7!3m6!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!4b1!8m2!3d50.4265807!4d30.5383858!16s%2Fg%2F1tctq5jv"
+                  class="address__link address--white link"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
+              </li>
+              <li class="address__item">
+                <a href="mailto:info@devstudio.com" class="address__link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="address__item">
+                <a href="tel:+380961111111" class="address__link link">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
 
         <div class="join">
           <p class="join__text">Приєднуйтесь</p>
